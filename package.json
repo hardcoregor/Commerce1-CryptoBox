@@ -2,12 +2,9 @@
   "name": "pa",
   "version": "0.1.0",
   "private": true,
-  "engines": {
-    "node": "16.x"
-  },
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "set \"CI=false\" && react-scripts build",
     "start": "next start",
     "lint": "next lint"
   },
