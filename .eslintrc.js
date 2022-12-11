@@ -17,9 +17,10 @@ module.exports = {
     'react',
   ],
   rules: {
-    "jsx-a11y/anchor-is-valid": ["error", {
-      "components": ["Link"],
-      "specialLink": ["to"]
+    "jsx-a11y/anchor-is-valid": [ "error", {
+      "components": [ "Link" ],
+      "specialLink": [ "hrefLeft", "hrefRight" ],
+      "aspects": [ "noHref", "invalidHref", "preferButton" ]
     }],
     'no-console': 0,
     'jsx-a11y/label-has-associated-control': 0,
