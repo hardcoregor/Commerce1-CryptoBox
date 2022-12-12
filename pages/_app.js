@@ -5,7 +5,11 @@ import { Footer, Navbar } from '../components';
 import '../styles/globals.css';
 
 const MyApp = ({ Component, pageProps }) => {
-  const root = useMemo(() => document.querySelector(":root"));
+  let root;
+
+  if (typeof window !== "undefined") {
+    root = useMemo(() => document.querySelector(":root"));
+  } // THIS FIXED document is not defined
 
   const [showModal, setShowModal] = useState(true);
   const parallaxHandler = (e) => {
