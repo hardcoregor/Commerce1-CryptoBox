@@ -10,7 +10,7 @@ import bigbox from './bigbox.png';
 import MM from './MM.png';
 import bnb from './bnb.png';
 import partners from './partners.png';
-import parallaxBG from './background.jpeg';
+import parallaxBG from './background.jpg';
 import instagram from './instagram.png';
 import twitter from './twitter.png';
 import telegram from './telegram.png';
