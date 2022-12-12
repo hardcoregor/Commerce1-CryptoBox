@@ -5,12 +5,7 @@ import React, { useEffect, useState } from 'react';
 import { logo } from '../assets';
 import Button from './Button';
 
-const Navbar = ({ showModal }) => {
-  const [first, setfirst] = useState(false);
-
-  const changeWal = () => {
-    setfirst(true);
-  };
+const Navbar = () => {
 
   return (
     <div className="flex items-center justify-between border-b border-nft-gray-3">
@@ -26,13 +21,9 @@ const Navbar = ({ showModal }) => {
         </Link>
       </div>
       <div className="mr-10">
-        {!first ? (
-          <Button name="Подключить кошелек" classStyle="font-inter" handleClick={changeWal} />
-        ) : (
-          <a href="account">
-            <Button name="Аккаунт" classStyle="font-inter" handleClick={changeWal} link="account" />
-          </a>
-        )}
+        <Link href="account">
+          <div className='text-sm minlg:text-lg py-2 px-6 minlg:px-8 font-inter font-semibold rounded-3xl nft-gradient cursor-pointer'>Аккаунт</div>
+        </Link>
 
       </div>
     </div>
