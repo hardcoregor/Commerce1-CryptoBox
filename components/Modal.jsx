@@ -5,7 +5,7 @@ import Button from './Button';
 
 const Modal = ({ setShowModal }) => (
 
-  <div className="flex flex-col flexCenter h-full p-20">
+  <div className="flex flex-col flexCenter h-full p-20 text-white">
     <div className="flex-col flexCenter">
       <h1 className="font-bold text-3xl font-inter">Coin Sale</h1>
       <p className="text-lg font-inter">Easy money</p>

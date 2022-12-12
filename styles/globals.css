@@ -17,6 +17,20 @@ html {
   height: 100%;
 }
 
+.bege {
+  background: #191a22;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1000;
+}
+
 .parallax {
   position: relative;
 }
@@ -34,7 +48,6 @@ html {
   right: 0;
   background-image: url("/background.jpg");
   z-index: -1000;
-
 }
 
 .nft-gradient {
@@ -57,7 +70,6 @@ html {
 }
 
 .chartBg {
-  //background: #191a22;
   background: rgba(25, 26, 34, 0.65);
 }
 

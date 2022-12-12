@@ -3,7 +3,7 @@ import React from 'react';
 import { box } from '../assets';
 
 const account = () => (
-  <div className="flex flex-1">
+  <div className="flex flex-1 text-white">
     <div className="w-1/4 border-r border-nft-gray-3 pt-3 pb-1.5 px-3">
       <h3 className="text-center text-bold font-inter border rounded-3xl border-nft-gray-3 p-1">Ваш аккаунт: 0x54....9ecdE2</h3>
 

@@ -5,7 +5,7 @@ import { telew } from '../assets';
 import Button from './Button';
 
 const Exchange = () => (
-  <div className="flex mt-8 items-center justify-between">
+  <div className="flex mt-8 items-center justify-between text-white">
     <div className="w-2/4">
       <Image
         src={telew}

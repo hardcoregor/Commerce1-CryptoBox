@@ -8,7 +8,7 @@ import Button from './Button';
 const Navbar = () => {
 
   return (
-    <div className="flex items-center justify-between border-b border-nft-gray-3">
+    <div className="flex items-center justify-between border-b border-nft-gray-3 text-white">
       <div className="ml-10 cursor-pointer z-10">
         <Link href="/">
           <Image

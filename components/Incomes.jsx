@@ -4,7 +4,7 @@ import { chart } from '../assets';
 import Button from './Button';
 
 const Incomes = () => (
-  <div className="flex flex-col items-center p-12">
+  <div className="flex flex-col items-center p-12 text-white">
     <h2 className="font-bold text-3xl text-center mb-4">Доходность крипто боксов</h2>
     <p className="w-2/4 text-center">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur ut, beatae rerum ducimus est a, hic possimus qui deleniti rem maxime voluptates. Cupiditate itaque perspiciatis autem iure, sunt temporibus consectetur.

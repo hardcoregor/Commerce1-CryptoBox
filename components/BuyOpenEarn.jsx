@@ -4,7 +4,7 @@ import { frame, stellar } from '../assets';
 import Button from './Button';
 
 const BuyOpenEarn = () => (
-  <div className="flex w-full justify-between">
+  <div className="flex w-full justify-between text-white">
 
     <div className="w-33 flex flex-col items-center">
       <div className="mt-40 z-10 text-center">

@@ -3,7 +3,7 @@ import React from 'react';
 import { bnb, MM } from '../assets';
 
 const Partners = () => (
-  <div className="p-12">
+  <div className="p-12 text-white">
     <div className="uppercase text-center font-bold text-2xl">
       Наши партнеры
     </div>

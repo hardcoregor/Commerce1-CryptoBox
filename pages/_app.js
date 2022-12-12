@@ -9,6 +9,7 @@ const MyApp = ({ Component, pageProps }) => {
 
   return (
     <div className="parallax h-full overflow-y-hidden flex-1 flex flex-col">
+      <div className="bege" />
       <div className="parallaxBG" />
       <ThemeProvider>
         <Navbar />

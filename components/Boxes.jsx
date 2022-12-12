@@ -5,7 +5,7 @@ import { box } from '../assets';
 import Button from './Button';
 
 const Boxes = () => (
-  <div className="flex flex-col w-full items-center">
+  <div className="flex flex-col w-full items-center text-white">
     <h1 className="font-bold text-2xl mt-10 uppercase font-inter mb-1">Наши продукты</h1>
     <div className="flex w-full justify-between text-center mt-24">
 
