@@ -5,7 +5,7 @@ import { instagram, logo, telegram, twitter } from '../assets';
 
 const Footer = () => (
   <footer className="w-full items-center flex border-t font-inter border-nft-gray-3 justify-between">
-    <div className="ml-10 cursor-pointer z-10">
+    <div className="ml-10 sm:ml-2 cursor-pointer z-10">
       <Link href="/">
         <Image
           src={logo}
@@ -17,20 +17,22 @@ const Footer = () => (
       </Link>
     </div>
 
-    <div className="mr-10">
+    <div className="mr-10 sm:mr-2">
       <ul className="flex">
-        <a target="blank" href="https://twitter.com">
+        <a className='mr-5' target="blank" href="https://twitter.com">
           <Image
             height={25}
             objectFit="contain"
             src={twitter}
+            alt="twitter"
           />
         </a>
-        <a target="blank" href="https://twitter.com">
+        <a className='mr-5' target="blank" href="https://twitter.com">
           <Image
             height={25}
             objectFit="contain"
             src={telegram}
+            alt="telegram"
           />
         </a>
         <a target="blank" href="https://twitter.com">
@@ -38,6 +40,7 @@ const Footer = () => (
             height={25}
             objectFit="contain"
             src={instagram}
+            alt="instagram"
           />
         </a>
       </ul>

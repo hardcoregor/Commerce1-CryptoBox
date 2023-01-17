@@ -192,7 +192,7 @@ html {
   left: 37.5%;
   width: 450px;
   height: 450px;
-  opacity: 10%;
+  opacity: 5%;
 
   background: #06c2fd;
   filter: blur(50px);
@@ -200,11 +200,11 @@ html {
 
 .nongraMainCube {
   position: absolute;
-  top: 4%;
-  left: 39.8%;
+  top: 15%;
+  left: 40.8%;
   width: 350px;
   height: 370px;
-  opacity: 10%;
+  opacity: 5%;
 
   background: #06c2fd;
   filter: blur(50px);
@@ -212,11 +212,11 @@ html {
 
 .nongraText {
   position: absolute;
-  top: 7%;
-  left: 17%;
+  top: 20%;
+  left: 19%;
   width: 200px;
   height: 200px;
-  opacity: 13%;
+  opacity: 8%;
 
   background: #06c2fd;
   filter: blur(70px);

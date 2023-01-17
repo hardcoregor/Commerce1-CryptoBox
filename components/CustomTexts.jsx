@@ -1,0 +1,31 @@
+'use client';
+
+import { motion } from 'framer-motion';
+import { textContainerFast, textVariant2Fast } from '../utils/motion';
+
+export const TypingText = ({ title, textStyles }) => (
+  <motion.p
+    variants={textContainerFast}
+    className={`${textStyles}`}
+  >
+    {Array.from(title).map((letter, index) => (
+      <motion.span
+        variants={textVariant2Fast}
+        key={index}
+      >
+        {letter === '' ? '\u00A0' : letter}
+      </motion.span>
+    ))}
+  </motion.p>
+);
+
+export const TitleText = ({ title, textStyles }) => (
+  <motion.h2
+    variants={textVariant2Fast}
+    initial="hidden"
+    whileInView="show"
+    className={`mt-[8px] font-bold md:text-[64px] text-[40px] text-white z-10 ${textStyles}`}
+  >
+    {title}
+  </motion.h2>
+);
