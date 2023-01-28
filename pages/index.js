@@ -19,7 +19,7 @@ const index = () => {
 
       <div className="pink_gradient" />
 
-      {showModal ? (
+      {!showModal ? (
         <Modal />
       ) :
         (
@@ -40,11 +40,11 @@ const index = () => {
                   footer={(
                     <div className='flex sm:flex-col md:items-center'>
                       {priceBox && typeBox ?
-                        <Button name="Оплатить покупку" handleClick={() => { }} classStyle="mr-5 md:mb-2 md:mr-0" />
+                        <Button name="Оплатить покупку" handleClick={() => { }} classStyle="mr-5 md:mb-2 md:mr-0 text-white" />
                         :
                         <ButtonDisable />
                       }
-                      <Button name="Отменить" handleClick={() => setPaymentModal(false)} classStyle="bg-none border" />
+                      <Button name="Отменить" handleClick={() => setPaymentModal(false)} classStyle="bg-none border text-white" />
                     </div>
                   )}
                   handleClose={() => setPaymentModal(false)}

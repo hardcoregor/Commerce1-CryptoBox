@@ -16,7 +16,7 @@ const PaymentBodyCmp = () => {
   return (
     <div className='flex flex-col'>
       <div className='flex flex-col'>
-        <h5 className='text-center'>Настройки Бокса</h5>
+        <h5 className='text-center text-white'>Настройки Бокса</h5>
 
         <div className='flex justify-between my-5'>
           <PriceSlider />
@@ -24,10 +24,10 @@ const PaymentBodyCmp = () => {
         </div>
 
         <div className='flex justify-between my-5 md:flex-col'>
-          <Button name="Инвестиционный" handleClick={() => buyBox('invest')} classStyle={`${boxSelect === 'invest' ? 'nft-gradient' : 'bg-none border'} md:mb-2`} />
-          <Button name="Игровой" handleClick={() => buyBox('play')} classStyle={`${boxSelect === 'play' ? 'nft-gradient' : 'bg-none border'} md:mb-2`} />
-          <Button name="Сберегательный" handleClick={() => buyBox('save')} classStyle={`${boxSelect === 'save' ? 'nft-gradient' : 'bg-none border'} md:mb-2`} />
-          <Button name="Сравнить все" handleClick={() => buyBox('')} classStyle={`${boxSelect === '' ? 'nft-gradient' : 'bg-none border'} mt-2`} />
+          <Button name="Инвестиционный" handleClick={() => buyBox('invest')} classStyle={`${boxSelect === 'invest' ? 'nft-gradient' : 'bg-none border'} md:mb-2 text-white`} />
+          <Button name="Игровой" handleClick={() => buyBox('play')} classStyle={`${boxSelect === 'play' ? 'nft-gradient' : 'bg-none border'} md:mb-2 text-white`} />
+          <Button name="Сберегательный" handleClick={() => buyBox('save')} classStyle={`${boxSelect === 'save' ? 'nft-gradient' : 'bg-none border'} md:mb-2 text-white`} />
+          <Button name="Сравнить все" handleClick={() => buyBox('')} classStyle={`${boxSelect === '' ? 'nft-gradient' : 'bg-none border'} mt-2 text-white`} />
         </div>
       </div>
 
