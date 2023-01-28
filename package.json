@@ -12,7 +12,7 @@
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
     "@material-ui/core": "^4.12.4",
-    "@mui/material": "^5.11.4",
+    "@mui/material": "^5.11.6",
     "@nivo/core": "^0.80.0",
     "@nivo/line": "^0.80.0",
     "@nivo/pie": "^0.80.0",
@@ -20,11 +20,11 @@
     "@nomiclabs/hardhat-waffle": "2.0.3",
     "@openzeppelin/contracts": "4.5.0",
     "axios": "0.26.0",
-    "ethers": "^5.5.4",
-    "framer-motion": "^8.3.3",
+    "ethers": "^5.7.2",
+    "framer-motion": "^8.5.4",
     "hardhat": "2.9.0",
     "ipfs-http-client": "56.0.1",
-    "next": "^13.1.1",
+    "next": "^13.1.6",
     "next-themes": "^0.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -34,11 +34,11 @@
     "redux": "^4.2.0",
     "redux-devtools-extension": "^2.13.9",
     "redux-thunk": "^2.4.2",
-    "web3modal": "^1.9.5"
+    "web3modal": "^1.9.12"
   },
   "devDependencies": {
     "autoprefixer": "10.4.2",
-    "parcel": "^2.8.1",
+    "parcel": "^2.8.3",
     "postcss": "8.4.7",
     "tailwindcss": "3.0.23"
   },
