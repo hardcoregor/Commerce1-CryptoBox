@@ -2,7 +2,7 @@ import { useContext, useState } from 'react';
 import Box from '@mui/material/Box';
 import Slider from '@mui/material/Slider';
 import { color } from '@mui/system';
-import { makeStyles } from "@material-ui/core/styles";
+// import { makeStyles } from "@material-ui/core/styles";
 import { CryptoContext } from '../context/cryptoContext';
 import { useSelector } from 'react-redux';
 
@@ -29,13 +29,13 @@ const marks = [
   },
 ];
 
-const useStyles = makeStyles({
-  root: {
-    "&>.MuiSlider-markLabel": {
-      color: "white !important"
-    }
-  }
-});
+// const useStyles = makeStyles({
+//   root: {
+//     "&>.MuiSlider-markLabel": {
+//       color: "white !important"
+//     }
+//   }
+// });
 
 
 const PriceSlider = () => {
