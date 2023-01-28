@@ -39,37 +39,40 @@ const Incomes = () => {
         variants={fadeIn('right', 'tween', 0.2, 0.5)}
         className="chartBg border border-nft-gray-3 w-full p-6 rounded-3xl mt-6">
         <ul className="">
-                    <li className="flex sm:flex-col justify-between font-bold text-base border border-nft-gray-3 border-opacity-20 items-center rounded-3xl p-2 px-10">
-            <span className='sm:hidden w-[180px]'>Сберегательный бокс</span>
-            <span className='sm:hidden'>Прибыль за 1 год</span>
-            <span className='sm:hidden'>60%</span>
-            <div className='w-1/4 h-[100px]'>
+          <li className="flex md:flex-col justify-between font-bold text-base border border-nft-gray-3 border-opacity-20 items-center rounded-3xl p-2 px-10 md:relative md:text-center">
+            <span className=' w-[180px]'>Сберегательный бокс</span>
+            <span className='md:font-light'>Прибыль за 1 год</span>
+            <span className='md:mb-32 md:font-light'>60%</span>
+            <div className='w-1/4 md:w-full md:absolute left-6 top-10 h-[100px] md:h-[150px] md:mb-8'>
               <ChartMainPage selectRisk={'low'} />
             </div>
             <Button name="Купить сейчас"
               handleClick={() => buyBox('save')}
+              classStyle='md:mb-2 md:p-2 md:w-full'
             />
           </li>
-          <li className="flex sm:flex-col justify-between font-bold text-base border border-nft-gray-3 border-opacity-20 items-center rounded-3xl p-2 mt-3 px-10">
-            <span className='sm:hidden w-[180px]'>Инвестиционный бокс</span>
-            <span className='sm:hidden'>Прибыль за 1 год</span>
-            <span className='sm:hidden'>140%</span>
-            <div className='w-1/4 h-[100px]'>
+          <li className="flex md:flex-col justify-between font-bold text-base border border-nft-gray-3 border-opacity-20 items-center rounded-3xl p-2 mt-3 px-10 md:relative md:text-center">
+            <span className=' w-[180px]'>Инвестиционный бокс</span>
+            <span className='md:font-light'>Прибыль за 1 год</span>
+            <span className='md:mb-32 md:font-light'>140%</span>
+            <div className='w-1/4 md:w-full md:absolute left-6 top-10 h-[100px] md:h-[150px]'>
               <ChartMainPage selectRisk={'mid'} />
             </div>
             <Button name="Купить сейчас"
               handleClick={() => buyBox('invest')}
+              classStyle='md:mb-2 md:p-2] md:w-full'
             />
           </li>
-          <li className="flex sm:flex-col justify-between font-bold text-base border border-nft-gray-3 border-opacity-20 items-center rounded-3xl p-2 mt-3 px-10">
-            <span className='sm:hidden w-[180px]'>Игровой бокс</span>
-            <span className='sm:hidden'>Прибыль за 1 год</span>
-            <span className='sm:hidden'>250%</span>
-            <div className='w-1/4 h-[100px]'>
+          <li className="flex md:flex-col justify-between font-bold text-base border border-nft-gray-3 border-opacity-20 items-center rounded-3xl p-2 mt-3 px-10 md:relative md:text-center">
+            <span className=' w-[180px]'>Игровой бокс</span>
+            <span className='md:font-light'>Прибыль за 1 год</span>
+            <span className='md:mb-32 md:font-light'>250%</span>
+            <div className='w-1/4 md:w-full md:absolute left-6 top-10 h-[100px] md:h-[150px]'>
               <ChartMainPage selectRisk={'high'} />
             </div>
             <Button name="Купить сейчас"
               handleClick={() => buyBox('play')}
+              classStyle='md:mb-2 md:p-2 md:w-full'
             />
           </li>
         </ul>

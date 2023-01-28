@@ -8,7 +8,7 @@ const Modal = ({ }) => {
   const { loadWalletConnection, closeModel } = useContext(CryptoContext);
 
   return (
-    <div className="flex flex-col flexCenter h-full p-20 text-white">
+    <div className="flex flex-col flexCenter h-full p-20 text-white sm:mt-0 md:mt-20 lg:mt-40">
       <div className="flex-col flexCenter">
         <h1 className="font-bold text-3xl font-inter">Coin Sale</h1>
         <p className="text-lg font-inter">Easy money</p>

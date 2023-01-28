@@ -38,9 +38,9 @@ const index = () => {
                   header="Покупка криптобокса"
                   body={<PaymentBodyCmp />}
                   footer={(
-                    <div className='flex sm:flex-col'>
+                    <div className='flex sm:flex-col md:items-center'>
                       {priceBox && typeBox ?
-                        <Button name="Оплатить покупку" handleClick={() => { }} classStyle="mr-5" />
+                        <Button name="Оплатить покупку" handleClick={() => { }} classStyle="mr-5 md:mb-2 md:mr-0" />
                         :
                         <ButtonDisable />
                       }

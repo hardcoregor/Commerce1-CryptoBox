@@ -44,7 +44,7 @@ const ChartForBuing = () => {
           }
         }}
         colors={{ datum: "color" }}
-        margin={{ top: 30, right: 10, bottom: 55, left: 60 }}
+        margin={{ top: 30, right: 10, bottom: 54, left: 60 }}
         xScale={{ type: 'point' }}
         yScale={{
           type: 'linear',

@@ -15,7 +15,7 @@ const ModalBuy = ({ header, body, footer, handleClose }) => {
 
   return (
     <div className='flexCenter fixed inset-0 z-10 bg-overlay-black animated fadeIn' onClick={handleClickOutside}>
-      <div ref={modalRef} className="w-2/5 md:w-11/12 minlg:w-2/4 bg-nft-black-3 bg-opacity-90 flex flex-col rounded-lg">
+      <div ref={modalRef} className="w-2/5 md:w-11/12 lg:w-[90%] minlg:w-2/4 bg-nft-black-3 bg-opacity-90 flex flex-col rounded-lg">
         <div className='flex justify-end mt-4 mr-4 minlg:mt-6 minkg:mr-6'>
           <div className='relative w-3 h-3 minlg:w-6 minlg:h-6 cursor-pointer' onClick={() => handleClose()}>
             <Image

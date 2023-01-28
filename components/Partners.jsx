@@ -10,7 +10,7 @@ const Partners = () => (
     initial="hidden"
     whileInView="show"
     viewport={{ once: false, amount: 0.25 }}
-    className="p-12 text-white sm:p-0 sm:mt-10"
+    className="p-12 md:p-0 text-white sm:p-0 sm:mt-10"
   >
     <motion.div
       variants={fadeIn('up', 'tween', 0.1, 0.5)}

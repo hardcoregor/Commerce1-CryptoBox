@@ -32,7 +32,7 @@ const Exchange = () => {
     </motion.div>
 
     <div className="w-2/4 sm:w-full sm:flex sm:flex-col sm:items-center">
-      <TypingText title="Мы на связи 24/7 с нашими клиентами и всегда поможем решить ваши вопросы!" textStyles="font-inter font-bold text-6xl my-10 sm:text-xl sm:text-center sm:my-4"/>
+      <TypingText title="Мы на связи 24/7 с нашими клиентами и всегда поможем решить ваши вопросы!" textStyles="font-inter font-bold text-6xl my-10 sm:text-xl sm:text-center sm:my-4 md:text-3xl"/>
       <TypingText title="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore corporis architecto natus accusantium quasi magnam aspernatur, est necessitatibus temporibus, numquam ipsum neque, harum enim quia nobis ratione commodi. Commodi, provident?" textStyles="font-inter font-light sm:text-center"/>
       <Button
         name="Купить крипто боксы"
