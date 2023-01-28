@@ -41,7 +41,7 @@ const marks = [
 const PriceSlider = () => {
   const { setPrice } = useContext(CryptoContext);
   const value = useSelector(state => state.utils.price);
-  const classes = useStyles();
+  // const classes = useStyles();
 
   const handleChange = (e, newValue) => {
     setPrice(newValue)
@@ -58,7 +58,7 @@ const PriceSlider = () => {
         min={0}
         max={3000}
         onChange={handleChange}
-        className={classes.root}
+        // className={classes.root}
         sx={{
           color: '#DA18A3'
         }}
