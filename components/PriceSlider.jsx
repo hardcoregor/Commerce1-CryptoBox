@@ -3,6 +3,7 @@ import Box from '@mui/material/Box';
 import Slider from '@mui/material/Slider';
 import { color } from '@mui/system';
 // import { makeStyles } from "@material-ui/core/styles";
+import styles from './Styles.module.scss';
 import { CryptoContext } from '../context/cryptoContext';
 import { useSelector } from 'react-redux';
 
@@ -58,7 +59,7 @@ const PriceSlider = () => {
         min={0}
         max={3000}
         onChange={handleChange}
-        // className={classes.root}
+        className={styles.Slider}
         sx={{
           color: '#DA18A3'
         }}

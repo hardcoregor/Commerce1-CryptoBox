@@ -19,7 +19,7 @@ const index = () => {
 
       <div className="pink_gradient" />
 
-      {!showModal ? (
+      {showModal ? (
         <Modal />
       ) :
         (
