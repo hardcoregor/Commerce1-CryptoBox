@@ -26,7 +26,7 @@ const MyApp = ({ Component, pageProps }) => {
   return (
     <div className="parallax h-full overflow-hidden flex-1 flex flex-col" onMouseMove={parallaxHandler}>
       {/* <div className="bege" /> */}
-      <div className="red" />
+      <div className="red bg-cover bg-no-repeat" />
       {/* <div className="parallaxBG" /> */}
       <Provider store={store}>
         <CryptoProvider>
