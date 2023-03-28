@@ -39,6 +39,23 @@ html {
   position: relative;
 }
 
+.red {
+  background-image: url('../assets/ba.jpg');
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  opacity: 100%;
+  width: 150%;
+  height: 150%;
+  top: -25%;
+  bottom: 0;
+  left: -25%;
+  right: 0;
+  /* background-image: url("/background.jpg"); */
+  z-index: -1000;
+  transform: translate(calc(var(--posX) * 1px), calc(var(--posY) * 1px));
+}
+
 .parallaxBG {
   display: flex;
   flex-direction: column;
