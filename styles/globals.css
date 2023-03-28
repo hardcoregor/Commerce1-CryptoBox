@@ -40,7 +40,7 @@ html {
 }
 
 .red {
-  background-image: url('/ba.jpg');
+  background-image: url('/assets/ba.jpg');
   display: flex;
   flex-direction: column;
   position: absolute;
